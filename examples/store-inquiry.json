@@ -1,0 +1,49 @@
+{
+  "_note": "示例：一家餐饮门店的日常重复任务。字段说明见 README「输入字段」节。",
+  "tasks": [
+    {
+      "name": "顾客咨询回信（营业时间/地址/订餐）",
+      "monthly_volume": 900,
+      "minutes_per_case": 1.5,
+      "g1_objective": true,
+      "g2_auto_detectable": true,
+      "g3_no_fairness_comparison": true,
+      "s1_data_available": true,
+      "human_judgement_share": 0.1,
+      "regulated": false
+    },
+    {
+      "name": "差评安抚回复",
+      "monthly_volume": 60,
+      "minutes_per_case": 8,
+      "g1_objective": false,
+      "g2_auto_detectable": false,
+      "g3_no_fairness_comparison": false,
+      "s1_data_available": true,
+      "human_judgement_share": 0.8,
+      "regulated": false
+    },
+    {
+      "name": "每日进货对账（单据↔系统）",
+      "monthly_volume": 30,
+      "minutes_per_case": 35,
+      "g1_objective": true,
+      "g2_auto_detectable": true,
+      "g3_no_fairness_comparison": true,
+      "s1_data_available": false,
+      "human_judgement_share": 0.15,
+      "regulated": false
+    },
+    {
+      "name": "菜品图拍摄与修图",
+      "monthly_volume": 20,
+      "minutes_per_case": 45,
+      "g1_objective": false,
+      "g2_auto_detectable": false,
+      "g3_no_fairness_comparison": false,
+      "s1_data_available": true,
+      "human_judgement_share": 0.6,
+      "regulated": false
+    }
+  ]
+}
